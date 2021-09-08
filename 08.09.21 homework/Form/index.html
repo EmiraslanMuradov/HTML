@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {text-align: center;}
+    </style>
+</head>
+<body>
+    <h1>Aplication Form</h1>
+    <form action="/testform" method="POST">
+        <div>
+            <label>Ad:</label><br>
+            <input type="text" name="name" placeholder="Ad" required>
+        </div><br>
+        <div>
+            <label>Soyad:</label><br>
+            <input type="text" name="surname" placeholder="Soyad" required>
+        </div><br>
+        <div>
+            <label>Şifrə:</label><br>
+            <input type="password" name="password" placeholder="Şifrə" required>
+        </div><br>
+        <div>
+            <label>Cinsinizi seçin:</label><br>
+            <label>K</label>
+            <input type="radio" name="gender" required>
+            <label>Q</label>
+            <input type="radio" name="gender" required>
+        </div><br>
+        <div>
+            <label>Bitirdiyiniz təhsil dərəcələrini seçin:</label><br>
+            <input type="checkbox" name="degree">
+            <label>Orta</label><br>
+            <input type="checkbox" name="degree">
+            <label>Bakalavr</label><br>
+            <input type="checkbox" name="degree">
+            <label>Magistr</label><br>
+            <input type="checkbox" name="degree">
+            <label>Doktor</label>
+        </div><br>
+        <div>
+            <label>Yaş:</label><br>
+            <input type="number" name="age" placeholder="Yaş" required>
+        </div><br>
+        <div>
+            <label>Boy:</label><br>
+            <input type="number" name="length" placeholder="Boy">
+        </div><br>
+        <div>
+            <label>Çəki:</label><br>
+            <input type="number" name="weight" placeholder="Çəki">
+        </div>
+        <div style="text-align:center">
+            <input type="submit" value="Təsdiqlə">
+        </div>
+    </form>
+</body>
+</html>
