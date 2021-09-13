@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.CV{
+    border: 10px solid orange;
+}
+h1.headerH1, p{
+    display: inline;
+    margin-left: 55%;
+}
+img.headerImg{
+    margin-top: 3%;
+    margin-left: 10%;
+}
+ul{
+    list-style-type: none;
+    margin-left: 15%;
+}
+.topic{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+table{
+    margin-left: 15%;
+}
+h3.topic, p.topic{
+    display: inline;
+}
+p.topic{
+    background-color: black;
+    margin-left: 55%;
+    padding: 5px;
+}
+h3.topic{
+    margin-left: 10%;
+}
