@@ -1,0 +1,50 @@
+*{
+    margin: 0 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1#thin{
+font-weight: 100;
+}
+#headergrad{
+    margin-top: 20px;
+    height: 2px;
+    width: 80px;
+    background-image: linear-gradient(to right,red,orange,yellow,green,lightblue,blue,purple);
+}
+div.header{
+    margin-left: 11%;
+    margin-bottom: 20px;
+}
+[class*="col-"]{
+    float: left;
+}
+div.infoitem{
+    float: left;
+}
+img.infoimg{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+}
+div.infotext{
+    margin-left: 30px;
+    width: 50%;
+}
+div.infoitem h3{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+div.infoitems{
+    margin: 0 10%;
+}
+a.infohover:hover{
+    box-shadow: 2px 2px 10px black;
+}
+a{
+    color: black;
+}
+div.infoitems a.item{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
