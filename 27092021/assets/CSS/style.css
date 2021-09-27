@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div.header{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+section#header div.header{
+    background-image: url('../images/GettyImages-874521882-1200x540.jpg');
+}
+div.header h3{
+    color: yellow;
+    text-align: center;
+}
+div.header h1{
+    font-size: 100px;
+    color: white;
+    text-align: center;
+}
+div.header p{
+    color: white;
+    text-align: center;
+    max-width: 500px;
+    margin: auto;
+}
+div.header a.readmore, div.header a.getstarted, div.contact a.request, div.contact a.contactus{
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: center;
+}
+div.header a.readmore{
+    background-color: orange;
+    padding: 5px;
+    margin-left: 30%;
+    width: 100px;
+}
+div.header a.readmore:hover{
+    background-color: rgb(207, 135, 0);
+}
+div.header a.getstarted{
+    background-color: black;
+    padding: 5px;
+    margin-left: 60%;
+    width: 120px;
+}
+div.header a.getstarted:hover{
+    background-color: rgb(48, 48, 48);
+}
+div.contact{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(207, 135, 0);
+}
+div.contact a.request{
+    background-color: black;
+    padding: 5px;
+    width: 150px;
+}
+div.contact a.request:hover{
+    background-color: rgb(46, 46, 46);
+}
+div.contact a.contactus{
+    background-color: rgb(207, 135, 0);
+    padding: 5px;
+    width: 150px;
+}
+div.contact a.contactus:hover{
+    background-color: rgb(161, 105, 0);
+}
+div.contact a.request, div.contact a.contactus{
+    border: grey 2px solid;
+    margin-top: 10%;
+}
+div.contact h3, div.contact p{
+    color: white;
+    margin-left: 20%;
+}
+div.infoitem img{
+    max-width: 400px;
+    max-height: 250px;
+}
+div.infoitem h4, div.infoitem p{
+    margin-left: 20px;
+}
+div.infoitem a{
+    text-decoration: none;
+    color: orange;
+    margin-left: 20px;
+}
