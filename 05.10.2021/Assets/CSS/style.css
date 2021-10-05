@@ -1,0 +1,41 @@
+#intro {
+  background-image: url("../../images/intro-bg.jpg");
+  background-attachment: fixed;
+}
+
+#intro .nav {
+  background-color: black;
+}
+
+#intro .nav .logo {
+  margin-left: 10px;
+}
+
+#intro .nav .nav-items ul {
+  list-style: none;
+}
+
+#intro .nav .nav-items ul a {
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+#intro .nav .nav-items ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+#intro .title {
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=style.css.map */
