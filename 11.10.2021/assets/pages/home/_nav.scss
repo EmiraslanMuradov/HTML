@@ -1,0 +1,32 @@
+#nav{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: white;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    .navlist ul{
+        display: flex;
+    }
+    .navlist ul li{
+        margin-left: 20px;
+    }
+    .navlist .nav-list-item-a, .navlist .nav-list-item-b{
+        list-style: none;
+    }
+    .navlist a{
+        text-decoration: none;
+    }
+    .navlist .nav-list-item-a a{
+        color: black;
+    }
+    .navlist .nav-list-item-b a{
+        color: white;
+        background-color: $main-bg-color;
+        padding: 10px;
+    }
+}

@@ -1,0 +1,36 @@
+.sites{
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    .site-item{
+        margin: 20px;
+        a{
+            text-decoration: none;
+            color: black;
+            .site-item-img{
+                width: 100%;
+                background-color: darkgreen;
+                padding: 50px;
+                animation: siteItemAnimation 2s;
+            }
+            .item-info{
+                display: inline-block;
+                font-size: 12px;
+                background-color: rgb(230, 230, 230);
+                border-radius: 3px;
+                padding: 7px;
+                margin-top: 10px;
+            }
+        }
+        
+    }
+}
+@keyframes siteItemAnimation{
+    0% {
+        margin-left: 50%;
+    }
+    100% {
+        margin-left: 0;
+    }
+}
